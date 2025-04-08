@@ -1,0 +1,8 @@
+a:4:{s:6:"_token";s:40:"waRxTk8RN3SLAK0sX5aCdQcXNjYSyMdqNgtU47tW";s:7:"message";a:3:{s:6:"status";s:5:"error";s:7:"message";s:347:"SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Free Plan' for key 'plans_name_unique' (SQL: insert into `plans` (`name`, `price`, `duration`, `max_users`, `max_customers`, `max_venders`, `image`, `updated_at`, `created_at`) values (Free Plan, 0, unlimited, 5, 5, 5, free_plan.png, 2025-04-07 08:21:26, 2025-04-07 08:21:26))";s:11:"dbOutputLog";s:188:"
+   INFO  Nothing to migrate.  
+
+
+   INFO  Seeding database.  
+
+  Database\Seeders\PlansTableSeeder .......................................................................... RUNNING  
+";}s:6:"_flash";a:2:{s:3:"new";a:0:{}s:3:"old";a:1:{i:0;s:7:"message";}}s:9:"_previous";a:1:{s:3:"url";s:38:"http://127.0.0.1:8000/install/database";}}
